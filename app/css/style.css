@@ -1,6 +1,13 @@
+body {
+    background-color: #525263;
+}
 .wrapper {
     width:980px;
     margin:0 auto;
+}
+#RU-MOS, #RU-MOW {
+    fill: crimson !important;
+    stroke: crimson !important;
 }
 #map-tip {
     position: absolute;
@@ -36,8 +43,8 @@ svg {
 }
 svg path {
     fill: #e6e6e6;
-    stroke: "#cacaca";
-    stroke-opacity: "0";
+    stroke: #525263;
+    stroke-opacity: 0.9;
 }
 svg path:hover {
     cursor: pointer;
