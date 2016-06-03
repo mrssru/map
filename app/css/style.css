@@ -1,0 +1,56 @@
+.wrapper {
+    width:980px;
+    margin:0 auto;
+}
+#map-tip {
+    position: absolute;
+    text-align: center;
+    z-index: 1500;
+}
+#map-tip #map-tip-text {
+    background: #ffffff;
+    border: 1px solid #00a5e4;
+    border-collapse: separate;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: #007aa9;
+    font-size: 12px !important;
+    font-size: 1.2rem;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    padding: 6px 10px;
+    line-height: 1;
+    white-space: nowrap;
+}
+#map-tip #map-tip-triangle {
+    background: url(../images/map-tooltip-triangle.png) no-repeat;
+    height: 14px;
+    left: 10px;
+    position: absolute;
+    top: 25px;
+    width: 14px;
+}
+svg {
+    display: table;
+    margin: 0 auto;
+}
+svg path {
+    fill: #e6e6e6;
+    stroke: "#cacaca";
+    stroke-opacity: "0";
+}
+svg path:hover {
+    cursor: pointer;
+    fill: #00a5e4;
+}
+.fullMap {
+    left: 10px;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    width: 200px;
+    color: #00a5e4;
+    font-size: 15px !important;
+    font-size: 1.2rem;
+    padding-top: 5px;
+}
